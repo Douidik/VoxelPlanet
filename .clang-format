@@ -1,0 +1,6 @@
+BasedOnStyle: Microsoft
+
+ColumnLimit: '160'
+AccessModifierOffset: '-4'
+AlwaysBreakTemplateDeclarations: 'Yes'
+BreakConstructorInitializers: BeforeComma

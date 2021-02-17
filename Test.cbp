@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\bin\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.conan\;CMake Files\..\..\.conan\data\;CMake Files\..\..\.conan\data\glfw\;CMake Files\..\..\.conan\data\glfw\3.3.2\;CMake Files\..\..\.conan\data\glfw\3.3.2\_\;CMake Files\..\..\.conan\data\glfw\3.3.2\_\_\;CMake Files\..\..\.conan\data\glfw\3.3.2\_\_\package\;CMake Files\..\..\.conan\data\glfw\3.3.2\_\_\package\8ec45cc70b70d9ad150174b47d9f9cc909baaa11\;CMake Files\..\..\.conan\data\glfw\3.3.2\_\_\package\8ec45cc70b70d9ad150174b47d9f9cc909baaa11\lib\;CMake Files\..\..\.conan\data\glfw\3.3.2\_\_\package\8ec45cc70b70d9ad150174b47d9f9cc909baaa11\lib\cmake\;CMake Files\..\..\.conan\data\cereal\;CMake Files\..\..\.conan\data\cereal\1.3.0\;CMake Files\..\..\.conan\data\cereal\1.3.0\_\;CMake Files\..\..\.conan\data\cereal\1.3.0\_\_\;CMake Files\..\..\.conan\data\cereal\1.3.0\_\_\package\;CMake Files\..\..\.conan\data\cereal\1.3.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\;CMake Files\..\..\.conan\data\cereal\1.3.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\lib\;CMake Files\..\..\.conan\data\cereal\1.3.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\lib\cmake\;CMake Files\src\;CMake Files\src\Engine\;CMake Files\src\Game\;CMake Files\src\Test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/douidik/dev/VoxelPlanet"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/douidik/dev/VoxelPlanet"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/douidik/dev/VoxelPlanet"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VoxelEngine">
+				<Option output="/home/douidik/dev/VoxelPlanet/lib/libVoxelEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/VoxelPlanet/src/Engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVOXENG_LINUX_OS"/>
+					<Add directory="/home/douidik/.conan/data/fmt/7.1.3/_/_/package/82ef5eac51c38971dea2fd342dd55ddf2ddfbbc3/include"/>
+					<Add directory="/home/douidik/.conan/data/glfw/3.3.2/_/_/package/8ec45cc70b70d9ad150174b47d9f9cc909baaa11/include"/>
+					<Add directory="/home/douidik/.conan/data/glew/2.2.0/_/_/package/d6ca83067c8d4603c647358d196aa5a4b7af9271/include"/>
+					<Add directory="/home/douidik/.conan/data/glm/0.9.9.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/home/douidik/.conan/data/cereal/1.3.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/home/douidik/dev/VoxelPlanet/src/Engine/."/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 VoxelEngine"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VoxelEngine/fast">
+				<Option output="/home/douidik/dev/VoxelPlanet/lib/libVoxelEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/VoxelPlanet/src/Engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVOXENG_LINUX_OS"/>
+					<Add directory="/home/douidik/.conan/data/fmt/7.1.3/_/_/package/82ef5eac51c38971dea2fd342dd55ddf2ddfbbc3/include"/>
+					<Add directory="/home/douidik/.conan/data/glfw/3.3.2/_/_/package/8ec45cc70b70d9ad150174b47d9f9cc909baaa11/include"/>
+					<Add directory="/home/douidik/.conan/data/glew/2.2.0/_/_/package/d6ca83067c8d4603c647358d196aa5a4b7af9271/include"/>
+					<Add directory="/home/douidik/.conan/data/glm/0.9.9.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/home/douidik/.conan/data/cereal/1.3.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/home/douidik/dev/VoxelPlanet/src/Engine/."/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 VoxelEngine/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VoxelPlanet">
+				<Option output="/home/douidik/dev/VoxelPlanet/bin/VoxelPlanet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/VoxelPlanet/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/douidik/.conan/data/fmt/7.1.3/_/_/package/82ef5eac51c38971dea2fd342dd55ddf2ddfbbc3/include"/>
+					<Add directory="/home/douidik/.conan/data/glfw/3.3.2/_/_/package/8ec45cc70b70d9ad150174b47d9f9cc909baaa11/include"/>
+					<Add directory="/home/douidik/.conan/data/glew/2.2.0/_/_/package/d6ca83067c8d4603c647358d196aa5a4b7af9271/include"/>
+					<Add directory="/home/douidik/.conan/data/glm/0.9.9.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/home/douidik/.conan/data/cereal/1.3.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/home/douidik/dev/VoxelPlanet/src/Engine/."/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 VoxelPlanet"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VoxelPlanet/fast">
+				<Option output="/home/douidik/dev/VoxelPlanet/bin/VoxelPlanet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/VoxelPlanet/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/douidik/.conan/data/fmt/7.1.3/_/_/package/82ef5eac51c38971dea2fd342dd55ddf2ddfbbc3/include"/>
+					<Add directory="/home/douidik/.conan/data/glfw/3.3.2/_/_/package/8ec45cc70b70d9ad150174b47d9f9cc909baaa11/include"/>
+					<Add directory="/home/douidik/.conan/data/glew/2.2.0/_/_/package/d6ca83067c8d4603c647358d196aa5a4b7af9271/include"/>
+					<Add directory="/home/douidik/.conan/data/glm/0.9.9.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/home/douidik/.conan/data/cereal/1.3.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/home/douidik/dev/VoxelPlanet/src/Engine/."/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 VoxelPlanet/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/douidik/dev/VoxelPlanet/src/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/CMakeFiles/VoxelEngine.dir/cmake_pch.hxx">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/CMakeFiles/VoxelEngine.dir/cmake_pch.hxx.cxx">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/Core/PCH.hpp">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/Misc/Logging.cpp">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/Misc/Logging.hpp">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/Misc/Serialization.cpp">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/Misc/Serialization.hpp">
+			<Option target="VoxelEngine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Game/Main.cpp">
+			<Option target="VoxelPlanet"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/bin/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\bin\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/../../.conan/data/glfw/3.3.2/_/_/package/8ec45cc70b70d9ad150174b47d9f9cc909baaa11/lib/cmake/conan-official-glfw-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\.conan\data\glfw\3.3.2\_\_\package\8ec45cc70b70d9ad150174b47d9f9cc909baaa11\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/../../.conan/data/cereal/1.3.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/conan-official-cereal-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\.conan\data\cereal\1.3.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Engine\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Game\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/VoxelPlanet/src/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
